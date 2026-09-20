@@ -60,11 +60,11 @@ A browser userscript that repeatedly clicks a configured trigger until a configu
 
 | Setting | Value |
 |---|---|
-| Site URL Pattern | `https://feather.openai.com/campaigns/*` |
+| Site URL Pattern | `https://site/campaigns/*` |
 | Trigger Text | `Join Queue` |
 | Success Text | `Leave Queue` |
-| Click Timer | `1` |
-| Jitter | `0` |
+| Click Timer | `1` | (in seconds)
+| Jitter | `0` | (in seconds)
 | Refresh Page Automatically | Enabled |
 | Page Refresh Timer | `30` |
 
